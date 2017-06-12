@@ -10,10 +10,10 @@ FORMAT=cssframes
 # Style only applies to HTML format. Custom requires updating the CUSTOM_CSS
 # variable below with a path to your custom CSS.
 # archwiki, github, custom
-HTML_STYLE=github
+HTML_STYLE=custom
 PDF_MAIN_FONT=Arial
 PDF_MONO_FONT=Courier
-TABLE_OF_CONTENTS_MAIN_DEPTH=6
+TABLE_OF_CONTENTS_MAIN_DEPTH=1
 TABLE_OF_CONTENTS_SUB_DEPTH=6
 SECTION_NUMBERS=yes
 TITLE_PAGE=
@@ -24,13 +24,13 @@ TITLE_PAGE=
 #############################################################################
 # ADVANCED CONFIGURATION
 
-BUILD_SCRIPT=
+BUILD_SCRIPT=build.sh
 
 PAGE_RENDERER=page.renderer
 #PYT_RENDERER=myrenderer.py
 
 EXTERNAL_DEPS_GENERATOR=
-CUSTOM_CSS=
+CUSTOM_CSS=rcloud_doc.css
 CUSTOM_TEMPLATE=
 
 # END ADVANCED CONFIGURATION
@@ -74,8 +74,8 @@ ifeq ($(TABLE_OF_CONTENTS_SUB_DEPTH), "")
 	TABLEOFCONTENTSSUB=
 endif
 
-PANDOCPDFINC=$(SECTIONNUMBERS) --listings -H $(TEXLISTINGS) --template=$(TEXTEMPLATE) --latex-engine=xelatex -f markdown -t latex $(TABLEOFCONTENTSMAIN) -V geometry:margin=1in -V mainfont="$(PDF_MAIN_FONT)" -V monofont="$(PDF_MONO_FONT)"
-PANDOCHTMLINC=$(SECTIONNUMBERS) -s --ascii --highlight-style tango -f markdown
+PANDOCPDFINC=$(SECTIONNUMBERS) --listings -H $(TEXLISTINGS) --template=$(TEXTEMPLATE) --latex-engine=xelatex -f markdown_github -t latex $(TABLEOFCONTENTSMAIN) -V geometry:margin=1in -V mainfont="$(PDF_MAIN_FONT)" -V monofont="$(PDF_MONO_FONT)"
+PANDOCHTMLINC=$(SECTIONNUMBERS) -s --ascii --highlight-style tango -f markdown_github --wrap=none
 
 PLANTUML_FORMAT=eps
 ifeq ($(FORMAT), html)
@@ -349,19 +349,19 @@ build/$(TITLEPAGE).md: build/$(TITLEPAGE).pmd
 # Turn a finalized .md file into an .html by running it through filter list
 build/%.html: build/%.md
 	$(info Processing '$<' with pandoc)
-	@cd build ; $(PANDOC) -f markdown -t html -s -V "pagetitle:$(TITLE)" -V "title:$(TITLE)" -M filename=$< --template $(TEMPLATE) $(FILTERS) $(notdir $<) -o $(notdir $@)
+	@cd build ; $(PANDOC) --wrap=none -f markdown -t html -s -V "pagetitle:$(TITLE)" -V "title:$(TITLE)" -M filename=$< --template $(TEMPLATE) $(FILTERS) $(notdir $<) -o $(notdir $@)
 
 # Turn a pre-process .pmd file into an .md by running it through filter list
 build/%.md: build/%.pmd
 	$(info Processing '$<' with pandoc)
-	@cd build ; $(PANDOC) -f markdown -t markdown $(FILTERS) $(notdir $<) -o $(notdir $@)
+	@cd build ; $(PANDOC) --wrap=none -f markdown -t markdown $(FILTERS) $(notdir $<) -o $(notdir $@)
 
 # Add a raw (unprocessed) .md file to the build directory by preprocessing through the
 # flt_get_includes to generate dependencies
 build/%.pmd: %.md
 	$(info Adding '$<' to build)
 	@cp $< $@
-	@$(PANDOC) -f markdown -t markdown --filter flt-get-includes.py $@ 1>/dev/null 2>$@.dT
+	@$(PANDOC) -f markdown -t markdown --wrap=none --filter flt-get-includes.py $@ 1>/dev/null 2>$@.dT
 	@for f in `cat $@.dT` ;\
 	     do printf "build/$$f " ;\
 	 done | awk '{print "build/$<: " $$0}' > $@.d
@@ -372,7 +372,7 @@ build/%.pmd: %.md
 build/%.pmd: %.gt
 	$(info Groovy processing '$<' and adding to build)
 	@$(MKTECHDOCSHOME)/bin/groovy/gtp $< > $@
-	@$(PANDOC) -f markdown -t markdown --filter flt-get-includes.py $@ 1>/dev/null 2>$@.dT
+	@$(PANDOC) -f markdown -t markdown --wrap=none --filter flt-get-includes.py $@ 1>/dev/null 2>$@.dT
 	@for f in `cat $@.dT` ;\
 	     do printf "build/$$f " ;\
 	 done | awk '{print "$(basename $@).md: " $$0}' > $@.d
@@ -388,7 +388,7 @@ else
 	$(info Processing '$<' with $(PYT_RENDERER) and adding to build)
 	@$(PYT_RENDERER) $< > $@
 endif
-	@$(PANDOC) -f markdown -t markdown --filter flt-get-includes.py $@ 1>/dev/null 2>$@.dT
+	@$(PANDOC) -f markdown -t markdown --wrap=none --filter flt-get-includes.py $@ 1>/dev/null 2>$@.dT
 	@for f in `cat $@.dT` ;\
 	    do printf "build/$$f " ;\
 	 done | awk '{print "$(basename $@).md: " $$0}' > $@.d
