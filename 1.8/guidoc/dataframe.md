@@ -6,6 +6,4 @@ Dataframe objects are displayed here after you click a dataframe link in the [Wo
 
 ![Dataframe Section in the Right Windowshade Panel](img/dataframe.png)
 
-[Top](#TOP)
 
-<a name="session"></a>

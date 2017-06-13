@@ -12,7 +12,7 @@ To conduct a global text search in all public RCloud notebooks, simply open up t
 
 **4:** Search results are paginated. Click on any page number below the results or use the ![Backpage Icon](img/backpage.png) back or ![Forwardpage Icon](img/forwardpage.png) next page to page through the results.
 
-[Top](#TOP)
+
 
 <a name="complexsearches"></a>
 
@@ -22,6 +22,3 @@ RCloud supports Lucene's feature-rich query parser syntax for more complex searc
 
 Please see the [official query parser syntax documentation](http://lucene.apache.org/core/2_9_4/queryparsersyntax.html) for more information.
 
-[Top](#TOP)
-
-<a name="settings"></a>

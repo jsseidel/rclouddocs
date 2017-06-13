@@ -26,6 +26,3 @@ notebook.R is intended to be a general-purpose Remote Procedure Call (RPC) in R.
 
 Please see [the following](https://github.com/att/rcloud/blob/develop/NEWS.md#rcloud-09) for more notebook.R features and information.
 
-[Top](#TOP)
-
-<a name="sharedrurls"></a>

@@ -8,7 +8,7 @@ Comments are included in search results.
 
 To submit a comment, simply input your text in the text area and click the comment icon ![Comment Icon](img/comment_icon.png). You can also submit your comment by pressing Ctrl-Enter (Win/Linux) or Cmd-Enter (Mac).
 
-[Top](#TOP)
+
 
 <a name="editingcomments"></a>
 
@@ -18,7 +18,7 @@ To edit a comment, click on the comment text to make changes. Then click Ctrl- o
 
 ![Editing Notebook Comments](img/comment_edit.png)
 
-[Top](#TOP)
+
 
 <a name="deletingcomments"></a>
 
@@ -27,8 +27,4 @@ To edit a comment, click on the comment text to make changes. Then click Ctrl- o
 To delete a comment, hover your mouse over the comment. Click the X next to the comment to delete it.
 
 ![Deleting Notebook Comments](img/comment_delete.png)
-
-[Top](#TOP)
-
-<a name="help"></a>
 

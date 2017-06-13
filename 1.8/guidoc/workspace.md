@@ -6,6 +6,4 @@ In the course of working with your notebook, variables are defined and assigned.
 
 In the case of dataframe variables, a link is displayed, which, when clicked, will open up the [Dataframe panel](#dataframe).
 
-[Top](#TOP)
 
-<a name="dataframe"></a>

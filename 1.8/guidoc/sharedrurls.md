@@ -4,6 +4,4 @@ Files can be served from user R libraries via `shared.R/<user>/<package>`. Users
 
 Note that users are still responsible for setting the permissions on the library path -- default permissions deny access, including the web server, to user libraries.
 
-[Top](#TOP)
 
-<a name="search"></a>

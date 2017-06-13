@@ -1,6 +1,6 @@
 # Data Access
 
-[Top](#TOP)
+
 
 <a name="fileupload"></a>
 
@@ -18,15 +18,11 @@ The file now exists in your installation server's home directory and is accessib
 
 The first line of R code loads the contents of the CSV file into an object called "mydata." The next line tells R to output a string version of the object.
 
-[Top](#TOP)
+
 
 <a name="uploadtonotebook"></a>
 
 ## Upload to Notebook
 
 The **Upload to Notebook** checkbox changes the way File Upload works.  Rather than uploading your file to your home directory, RCloud will store the file inside your notebook as an "asset." To view notebook assets, click on the assets bar on the right sidebar. Please see the [Notebook Assets](#notebookassets) section for more information.
-
-[Top](#TOP)
-
-<a name="notebookassets"></a>
 

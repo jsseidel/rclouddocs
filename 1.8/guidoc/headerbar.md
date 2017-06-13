@@ -42,8 +42,4 @@ You can create a mini-view of your notebook for this Discover view by creating a
 
 ![Header Bar: Logout](img/header_logout.png): Click Logout to end your RCloud session.
 
-[Top](#TOP)
-
-<a name="cells"></a>
-
 

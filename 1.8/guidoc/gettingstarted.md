@@ -6,8 +6,4 @@ In order to implement version control in the background, or in other words, in o
 
 Since every installation's networking architecture will be different, please refer to your installation's local documentation for any relevant environment information.
 
-[Top](#TOP)
-
-<a name="partsofthegui"></a>
-
 

@@ -26,4 +26,3 @@ Although comprehensive documentation of rcloud.shiny is beyond the scope of this
 
 To learn more about how to use Shiny in RCloud, please see the rcloud.shiny example notebooks under RCloud Sample Notebooks in the Notebooks panel and the [official Shiny documentation](http://shiny.rstudio.com/).
 
-[Top](#TOP)

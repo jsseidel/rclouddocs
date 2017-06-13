@@ -6,7 +6,7 @@ The RCloud GUI consists of: \* Header Bar located in the banner or navigation se
 
 <a href="img/GUI_Parts.png"><img class="trunc" src="img/GUI_Parts.png" /></a>
 
-[Top](#TOP)
+
 
 <a name="guinavigation"></a>
 
@@ -18,7 +18,7 @@ The RCloud GUI consists of: \* Header Bar located in the banner or navigation se
 
 Clicking on the title of a panel opens and closes (and resizes in some cases) RCloud panels, such as Notebooks and Search.
 
-[Top](#TOP)
+
 
 <a name="openingandclosingallpanels"></a>
 
@@ -32,17 +32,12 @@ Clicking the "+" sign will restore all panels in the column to their previous si
 
 ![Right Windowshade Panel](img/windowshaderight.png)
 
-[Top](#TOP)
+
 
 <a name="changingpanelwidth"></a>
 
 ### Changing Panel Width
 
 To change the width of a panel, hover your mouse over the the edge that touches the cells in the middle. When it changes into a double arrow, click and drag left and right to resize.
-
-[Top](#TOP)
-
-<a name="theheaderbar"></a>
-
 
 

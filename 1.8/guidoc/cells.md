@@ -12,7 +12,7 @@ We'll get to the difference between Markdown and RMarkdown cells in a moment.
 
 "Data marshalling," or using objects between cells of different languages, is not supported at this time. Also, each "shell" cell represents a separate Unix shell, so environment variables cannot be passed across shell cells. However, R environment variables defined in R cells are inherited by shell cells automatically. Shell cell commands are executed in bash.
 
-[Top](#TOP)
+
 
 <a name="rpromptcells"></a>
 
@@ -38,7 +38,7 @@ To execute the code, simply put your cursor at the end of the last line and pres
 
 Note that it is currently not possible to insert a prompt cell above an existing prompt cell. The only way to add new prompt cells is by executing the current prompt cell. When you do, a new cell is created under the existing one.
 
-[Top](#TOP)
+
 
 <a name="terminology"></a>
 
@@ -46,7 +46,7 @@ Note that it is currently not possible to insert a prompt cell above an existing
 
 Throughout this documentation, prompt cells are sometimes referred to as R cells, Python cells, or bash cells.
 
-[Top](#TOP)
+
 
 <a name="Markdowncells"></a>
 
@@ -54,7 +54,7 @@ Throughout this documentation, prompt cells are sometimes referred to as R cells
 
 <a href="img/markdowncell.png"><img class="trunc" src="img/markdowncell.png" /></a>
 
-[Top](#TOP)
+
 
 <a name="addingrcode"></a>
 
@@ -67,7 +67,7 @@ Markdown cells are where you enter and edit blocks of multi-line R markdown. Mar
         print("Hello World!")
         ```
 
-[Top](#TOP)
+
 
 <a name="markdown"></a>
 
@@ -112,7 +112,7 @@ When you're done editing a markdown cell, click the ![Run Markdown](img/runmarkd
 
 For additional Markdown information, please refer to the [full documentation of Markdown syntax](http://daringfireball.net/projects/markdown/syntax).
 
-[Top](#TOP)
+
 
 <a name="editingandviewingresults"></a>
 
@@ -124,7 +124,7 @@ If you find a typo or would like to otherwise edit your code, click the ![Edit M
 
 At the beginning or end of a cell's code, use the up and down arrow keys to jump to the next or previous cell.
 
-[Top](#TOP)
+
 
 <a name="addinganddeletingcells"></a>
 
@@ -132,7 +132,7 @@ At the beginning or end of a cell's code, use the up and down arrow keys to jump
 
 To insert a cell above, click the ![Insert Cell: Example 1](img/addcell.png) icon. To insert a cell below, click the ![Insert Cell: Example 2](img/addcellbelow.png) icon. To delete a cell altogether, click the ![Delete Cell](img/deletecell.png) icon.
 
-[Top](#TOP)
+
 
 <a name="cellrunstateindicator"></a>
 
@@ -156,7 +156,7 @@ The run-state of each cell is displayed via an icon in between the gutter and ce
 
 ![Cell Run-state Indicator: Splat Circle](img/splatcircle.png): The cell's run was cancelled.
 
-[Top](#TOP)
+
 
 <a name="stoppingcellexecution"></a>
 
@@ -176,7 +176,7 @@ This ends an interrupt to the R process and terminates execution if possible.
 
 To rearrange your cells, click and drag the blank status area above the cell or the ![Drag and Drop Cell Order Arrangement](img/dragcell.png) icon to the left of the cell.
 
-[Top](#TOP)
+
 
 <a name="joiningcells"></a>
 
@@ -194,7 +194,7 @@ Behind the scenes, RCloud uses several different R packages to render output. Ma
 
 Currently RMarkdown support should be considered experimental.
 
-[Top](#TOP)
+
 
 <a name="savingplots"></a>
 
@@ -206,7 +206,7 @@ Hover the mouse over a plot created in an R cell to make the disk icon appear in
 
 Note that you can only save plots created in R cells.
 
-[Top](#TOP)
+
 
 <a name="Locators"></a>
 
@@ -222,6 +222,3 @@ To add points, left-click anywhere on the plot. To end or abort a locator reques
 
 Locators only work in R cells.
 
-[Top](#TOP)
-
-<a name="notebooks"></a>

@@ -8,7 +8,7 @@ You can also browse everyone else's notebooks by opening the Notebooks section o
 
 To load a notebook into the current session, click on the name. After it loads, you can examine the source code or click "Run" in the header bar to execute all the cells on the page.
 
-[Top](#TOP)
+
 
 <a name="creatinganotebook"></a>
 
@@ -22,7 +22,7 @@ RCloud will automatically choose a title for your new notebook, Notebook N, wher
 
 To change the default name of new notebooks, see the [New Notebook Prefixes](#newnotebookprefixes) sub-section in the Settings panel.
 
-[Top](#TOP)
+
 
 <a name="runninganotebook"></a>
 
@@ -40,7 +40,7 @@ To run only selected cells, hold down the `Ctrl/Cmd` key when you lick the ![Hea
 
 Pressing the ![Markdown Cell Play Icon](img/runmarkdown.png) icon in a cell while holding down the `shift` key will run that cell and every cell after in order.
 
-[Top](#TOP)
+
 
 <a name="longrunningnotebooks"></a>
 
@@ -50,7 +50,7 @@ Notebooks that run longer than a few seconds will cause the browser screen to di
 
 Currently, RCloud has no explicit mechanism to stop a long-running notebook. If you mistakenly launch a long-running notebook, you can simply reload the notebook in another browser tab or reload the page.  This doesn't stop the execution behind the scenes, but the output of the previous run will not interrupt your current session. Be careful of side-effects, like changing the contents of a file in your local directory in such a way that it affects the output of the notebook.
 
-[Top](#TOP)
+
 
 <a name="forkingcopyinganotebook"></a>
 
@@ -66,7 +66,7 @@ After forking a notebook, you'll own your own copy and therefore be able to edit
 
 The fork icon is always available, which means you can fork your own notebooks. If you are viewing a previous version of a notebook, you can fork a copy of that version. Caution: currently when you fork your own notebook, the history is lost; we hope to fix this soon.
 
-[Top](#TOP)
+
 
 <a name="savingyourwork"></a>
 
@@ -74,7 +74,7 @@ The fork icon is always available, which means you can fork your own notebooks. 
 
 There are two mechanisms by which your work is saved in RCloud.
 
-[Top](#TOP)
+
 
 <a name="manualsaving"></a>
 
@@ -82,7 +82,7 @@ There are two mechanisms by which your work is saved in RCloud.
 
 You can save your notebook at any time by clicking the ![Header Bar: Save Icon](img/header_save.png) icon in the header bar.
 
-[Top](#TOP)
+
 
 <a name="versioning"></a>
 
@@ -94,7 +94,7 @@ RCloud keeps track of your notebook versions automatically and frequently. Every
 
 To change they way dates and times are displayed next to your notebook versions, see the [show terse version dates](#showterseversiondates) setting.
 
-[Top](#TOP)
+
 
 <a name="versiontagging" />
 
@@ -112,7 +112,7 @@ Now, rather than referring to a specific notebook version with <code>&version=ha
 
 This is useful when you want to share a version of a notebook but plan to continue developing it. For example, you can tag a version as the "LatestProductionVersion," and then apply that tag to another version when you're ready to share your new work. This way, existing URLs (perhaps stored in someone's bookmarks) won't break as you update your notebooks.
 
-[Top](#TOP)
+
 
 <a name="revert"></a>
 
@@ -122,7 +122,7 @@ Should you decide that a previous version of your notebook is the "best" version
 
 ![Revert Icon](img/revert.png)
 
-[Top](#TOP)
+
 
 <a name="hiddennotebooks"></a>
 
@@ -132,7 +132,7 @@ By default, all RCloud notebooks are visible to all RCloud users. If you'd like 
 
 Hidden notebooks are only invisible within the RCloud interface. Hidden notebooks are still visible within the gists stored in your GitHub instance.
 
-[Top](#TOP)
+
 
 <a name="togglehidden"></a>
 
@@ -140,7 +140,7 @@ Hidden notebooks are only invisible within the RCloud interface. Hidden notebook
 
 Clicking the ![Private Notebook Icon Toggle](img/privatenotebook.png) icon will hide your notebook from other RCloud users.
 
-[Top](#TOP)
+
 
 <a name="toggleshow"></a>
 
@@ -148,7 +148,7 @@ Clicking the ![Private Notebook Icon Toggle](img/privatenotebook.png) icon will 
 
 Clicking the ![Public Notebook Icon Toggle](img/publicnotebook.png) icon will make your notebook readable by other RCloud users.
 
-[Top](#TOP)
+
 
 <a name="protectingyournotebooks"></a>
 
@@ -184,7 +184,7 @@ Use the second tab of the protection dialog to create/rename groups and/or assig
 
 Unlike a hidden notebook, protected notebooks are not readable by anyone without permission, even within your GitHub instance.
 
-[Top](#TOP)
+
 
 <a name="deletingnotebooks"></a>
 
@@ -198,7 +198,7 @@ RCloud will ask for a confirmation:
 
 Click OK and the notebook will disappear from the left sidebar and the last-viewed available notebook will automatically load into the current session.
 
-[Top](#TOP)
+
 
 <a name="sharingyournotebooks"></a>
 
@@ -214,7 +214,7 @@ Clicking on a selection in the sharing menu will open a new browser tab and load
 
 Note that if you have a tagged version of your notebook currently loaded, where appropriate, RCloud will populate the shared URL with the tag instead of the version. This is beneficial because then you can tag future versions with the same tag and not break existing URLs.
 
-[Top](#TOP)
+
 
 <a name="view.html"></a>
 
@@ -228,7 +228,7 @@ This is the simplest method. This will create a link that will allow someone to 
 
 To hide *all* UI elements, add `&quiet=1` to the URL. Note that this works only with view.html.
 
-[Top](#TOP)
+
 
 <a name="viewiip.html"></a>
 
@@ -236,7 +236,7 @@ To hide *all* UI elements, add `&quiet=1` to the URL. Note that this works only 
 
 View the notebook as a Slidy Powerpoint-like slideshow.
 
-[Top](#TOP)
+
 
 <a name="flexdashboard.html"></a>
 
@@ -244,7 +244,7 @@ View the notebook as a Slidy Powerpoint-like slideshow.
 
 View a notebook that uses the flexdashboard package.
 
-[Top](#TOP)
+
 
 <a name="notebook.R"></a>
 
@@ -258,7 +258,7 @@ E.g.: https://rcloud.mydomain.com/notebook.R/user/notebook/.self/foo/bar will ca
 
 See the [notebook.R URLs](#notebookrurls) section of the documentation for more detailed information about notebook.R URLs.
 
-[Top](#TOP)
+
 
 <a name="mini.html"></a>
 
@@ -266,7 +266,7 @@ See the [notebook.R URLs](#notebookrurls) section of the documentation for more 
 
 Unlike notebook.R, mini.html URLs open an R session via a Websocket and keep it open. Mini.html notebooks MUST have a function named `rcw.result()` defined, as that is what mini.html tries to execute upon instantiation. Because the R session is kept open, users or processes can interact with the R session while the websocket is kept open.
 
-[Top](#TOP)
+
 
 <a name="shiny.html"></a>
 
@@ -274,7 +274,7 @@ Unlike notebook.R, mini.html URLs open an R session via a Websocket and keep it 
 
 RCloud supports the [RStudio Shiny web application framework](#http://shiny.rstudio.com/). To share [Shiny-enabled notebooks](#rstudioshinysupport), select this option.
 
-[Top](#TOP)
+
 
 <a name="whostarredmynotebook"></a>
 
@@ -284,7 +284,7 @@ To find out which users starred your notebook, click the notebook information ic
 
 ![Notebook Information Icon](img/notebookinfo.png)
 
-[Top](#TOP)
+
 
 <a name="multicellselection"></a>
 
@@ -312,7 +312,7 @@ Multi-cell selection supports common keyboard extensions:
 4.  **Ctrl/command-k** will crop (remove) all unselected cells.
 5.  **Ctrl/command-Shift-i** will invert the selection (check all unchecked cells and uncheck all checked cells).
 
-[Top](#TOP)
+
 
 <a name="findreplace"></a>
 
@@ -326,7 +326,7 @@ To find and replace text within your notebook, type Ctrl-H (Win/Linux) or Cmd-Op
 
 ![Find and Replace Text Dialog](img/find_replace.png)
 
-[Top](#TOP)
+
 
 <a name="recent"></a>
 
@@ -335,9 +335,4 @@ To find and replace text within your notebook, type Ctrl-H (Win/Linux) or Cmd-Op
 Access your recently opened notebooks via the Recent link in the Notebooks titlebar:
 
 ![Recently Opened Notebooks Link](img/recent.png)
-
-[Top](#top)
-
-<a name="dataaccess"></a>
-
 

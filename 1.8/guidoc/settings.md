@@ -4,7 +4,7 @@ Various aspects of your RCloud environment parameters may be changed in the Sett
 
 ![Settings Section of the Left Windowshade Panel](img/settings.png)
 
-[Top](#TOP)
+
 
 <a name="showcommandprompt"></a>
 
@@ -12,7 +12,7 @@ Various aspects of your RCloud environment parameters may be changed in the Sett
 
 This setting toggles the appearance of the default prompt cell that appears at the bottom of the currently loaded notebook.
 
-[Top](#TOP)
+
 
 <a name="showterseversiondates"></a>
 
@@ -20,7 +20,7 @@ This setting toggles the appearance of the default prompt cell that appears at t
 
 This controls how RCloud displays dates when viewing notebook versions.  When selected, RCloud will display dates and times only when they're different from the version before it.
 
-[Top](#TOP)
+
 
 <a name="showcellnumbers"></a>
 
@@ -28,25 +28,25 @@ This controls how RCloud displays dates when viewing notebook versions.  When se
 
 Toggles "Cell 1," "Cell 2," etc. in the cells panel.
 
-[Top](#TOP)
+
 
 ## Arrange panels by size
 
 In some situations, larger panels on the left-hand side of the GUI "crowd-out" the currently loaded notebook and force the user to resize.  In order to minimize this, select the "Arrange Panel by Size" checkbox in the Settings panel. RCloud will then rearrange panels in order to reduce the need for resizing the notebook. 
 
-[Top](#TOP)
+
 
 ## Clear R Session when entire notebook is run
 
 Runs notebooks as though you'd just logged in.
 
-[Top](#TOP)
+
 
 ## Export only selected cells
 
 In the various export commands available in the Advanced header menu item, only export selected cells.
 
-[Top](#TOP)
+
 
 <a name="extensions"></a>
 
@@ -58,7 +58,7 @@ You can enable and disable extensions using the "Enable Extensions" and "Disable
 
 Enter a list of extensions, comma delimited, and press enter. You will then have to reload the page.
 
-[Top](#TOP)
+
 
 <a name="newnotebookprefixes"></a>
 
@@ -70,6 +70,3 @@ Suppose you were working on a project, Foo. You might choose "Foo " for your new
 
 You could also include a folder. RCloud would then place new notebooks within that folder in the notebook tree. For example, you may choose to make "Foo/Notebook " your new notebook prefix name. RCloud would create new notebooks "Foo/Notebook 1," "Foo/Notebook 2," and so on.
 
-[Top](#TOP)
-
-<a name="comments"></a>

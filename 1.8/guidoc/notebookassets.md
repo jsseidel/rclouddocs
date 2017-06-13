@@ -4,7 +4,7 @@ Notebooks can contain "assets," which are files that can be used within your not
 
 ![Right Windowshade Panel; Asset Area](img/assetarea.png)
 
-[Top](#TOP)
+
 
 <a name="dataasanasset"></a>
 
@@ -22,7 +22,7 @@ Now, this data is accessible in your R code:
 
 ![Data (CSV file) as an RCloud Asset](img/asset.png)
 
-[Top](#TOP)
+
 
 <a name="uploadingasset"></a>
 
@@ -32,7 +32,7 @@ In addition to manually entering asset text, you can also drag and drop files in
 
 ![Drag and Drop to Upload Data](img/drag_drop.png)
 
-[Top](#TOP)
+
 
 <a name="assetlinks"></a>
 
@@ -42,7 +42,7 @@ RCloud automatically generates asset links and displays them in the lower left-h
 
 ![Automatically Generated Link (URL) to RCloud Asset](img/assetlink.png)
 
-[Top](#TOP)
+
 
 <a name="binaryassets"></a>
 
@@ -50,7 +50,7 @@ RCloud automatically generates asset links and displays them in the lower left-h
 
 Assets can be binary (e.g. an image). RCloud auto-detects the content format and transparently encodes and decodes using base-64 encoding.  When possible, the content is displayed in its native format in the asset panel.
 
-[Top](#TOP)
+
 
 <a name="assetsize"></a>
 
@@ -58,7 +58,7 @@ Assets can be binary (e.g. an image). RCloud auto-detects the content format and
 
 Assets are limited to 2.5MB each.
 
-[Top](#TOP)
+
 
 <a name="usingcss"></a>
 
@@ -87,7 +87,7 @@ To use the p.mystyle paragraph style, simply reference it in Markdown using HTML
 
 Note that you must reload your notebook to apply the CSS.
 
-[Top](#TOP)
+
 
 <a name="jsmode"></a>
 
@@ -97,7 +97,7 @@ Assets can also contain JavaScript. When editing JavaScript (files must have the
 
 ![Javascript Files and Syntax Checking](img/jsmode.png)
 
-[Top](#TOP)
+
 
 <a name="htmlmode"></a>
 
@@ -107,7 +107,7 @@ When editing HTML (files must have the .html or .htm extension), RCloud automati
 
 ![HTML Files and Syntax Checking](img/htmlmode.png)
 
-[Top](#TOP)
+
 
 <a name="assetrename"></a>
 
@@ -116,9 +116,5 @@ When editing HTML (files must have the .html or .htm extension), RCloud automati
 To rename an asset, simply click on the file name on the asset's tab.
 
 ![Renaming an RCloud Asset](img/assetrename.png)
-
-[Top](#TOP)
-
-<a name="notebookrurls"></a>
 
 

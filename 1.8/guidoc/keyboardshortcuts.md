@@ -4,4 +4,4 @@ RCloud supports many keyboard shortcuts. To see an exhaustive list, click in a b
 
 ![Keyboard Shortcuts](img/kshort.png)
 
-[Top](#TOP)
+
