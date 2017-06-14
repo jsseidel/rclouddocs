@@ -4,7 +4,7 @@
 
 The RCloud GUI consists of:
 
-* Header Bar located in the banner or navigation section of the browser 
+* A header Bar located in the banner or navigation section of the browser 
 * Left and right Windowshade Panels 
 * Prompt and Markdown Cells located in the center of the screen
 
