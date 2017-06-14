@@ -6,7 +6,7 @@ The RCloud header bar is located at the top of the browser and contains several 
 
 ![Header Bar: Share Icon](img/header_share.png): Please see the [Sharing Your Notebooks](#sharingyournotebooks) section for more information.
 
-![Header Bar: Star Icon](img/header_star.png): Click the star icon to toggle the appearance of the current notebook in the "Notebooks I Starred" area on the left sidebar. The icon displays the number of RCloud users who have added the notebook to their interests. In the case shown above, one user has done so.
+![Header Bar: Star Icon](img/header_star.png): Click the star icon to toggle the appearance of the current notebook in the "Notebooks I Starred" area on the left sidebar. The icon displays the number of RCloud users who have added the notebook to their interests. In the case shown to the left, five users have done so.
 
 ![Header Bar: Fork Icon](img/header_fork.png): Click the fork icon to make a new copy of a notebook for editing.
 
