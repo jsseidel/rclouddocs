@@ -6,25 +6,19 @@ Various aspects of your RCloud environment parameters may be changed in the Sett
 
 
 
-<a name="showcommandprompt"></a>
-
-## Show Command Prompt
+## Show command prompt
 
 This setting toggles the appearance of the default prompt cell that appears at the bottom of the currently loaded notebook.
 
 
 
-<a name="showterseversiondates"></a>
-
-## Show Terse Version Dates
+## Show terse version dates
 
 This controls how RCloud displays dates when viewing notebook versions.  When selected, RCloud will display dates and times only when they're different from the version before it.
 
 
 
-<a name="showcellnumbers"></a>
-
-## Show Cell Numbers
+## Show cell numbers
 
 Toggles "Cell 1," "Cell 2," etc. in the cells panel.
 
@@ -48,8 +42,6 @@ In the various export commands available in the Advanced header menu item, only 
 
 
 
-<a name="extensions"></a>
-
 ## Extensions
 
 Power users can extend RCloud's user interface with global and per-user extensions. Although this functionality is outside the scope of this document, more information is available [here](https://github.com/att/rcloud/wiki/RCloud-UI-Extensions).
@@ -60,13 +52,13 @@ Enter a list of extensions, comma delimited, and press enter. You will then have
 
 
 
-<a name="newnotebookprefixes"></a>
+## New notebook prefixes
 
-## New Notebook Prefixes
-
-Use the New Notebook Prefix setting to change how RCloud names [new notebooks](#creatinganotebook).
+Use the New Notebook Prefix setting to change how RCloud names [new notebooks](notebooks.html#creating-a-notebook).
 
 Suppose you were working on a project, Foo. You might choose "Foo " for your new notebook prefix. New notebooks would be named "Foo 1," "Foo 2," and so on.
 
-You could also include a folder. RCloud would then place new notebooks within that folder in the notebook tree. For example, you may choose to make "Foo/Notebook " your new notebook prefix name. RCloud would create new notebooks "Foo/Notebook 1," "Foo/Notebook 2," and so on.
+You can also include a folder. RCloud then places new notebooks within that folder in the notebook tree. For example, you may choose to make "Foo/Notebook " your new notebook prefix name. RCloud would create new notebooks "Foo/Notebook 1," "Foo/Notebook 2," and so on.
+
+
 

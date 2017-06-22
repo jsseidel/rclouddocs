@@ -1,34 +1,28 @@
-# Graphic User Interface (GUI) Overview
+# Graphical User Interface (GUI) overview
 
 ## Parts of the GUI
 
 The RCloud GUI consists of:
 
-* A header Bar located in the banner or navigation section of the browser 
-* Left and right Windowshade Panels 
-* Prompt and Markdown Cells located in the center of the screen
+* A header bar located along the top of the browser window
+* Left and right windowshade panels
+* Prompt and markdown cells located in the center of the screen
 
 <a href="img/GUI_Parts.png"><img class="trunc" src="img/GUI_Parts.png" /></a>
 
 
 
-<a name="guinavigation"></a>
+## GUI navigation
 
-## GUI Navigation
-
-<a name="openingandclosingpanels"></a>
-
-### Opening and Closing Panels
+### Opening and closing panels
 
 Clicking on the title of a panel opens and closes (and resizes in some cases) RCloud panels, such as Notebooks and Search.
 
 
 
-<a name="openingandclosingallpanels"></a>
+### Opening and closing all panels
 
-### Opening and Closing All Panels
-
-When all RCloud panels are minimized in a column, a "+" sign will appear, as shown here.
+When all RCloud panels are minimized in a column, a "+" sign will appear, as shown here:
 
 ![Left Windowshade Panel](img/windowshadeleft.png)
 
@@ -38,10 +32,11 @@ Clicking the "+" sign will restore all panels in the column to their previous si
 
 
 
-<a name="changingpanelwidth"></a>
+### Changing panel width
 
-### Changing Panel Width
+To change the width of a panel, hover your mouse over the edge that touches the cells in the middle. When the mouse cursor changes into a double arrow, click and drag left and right to resize.
 
-To change the width of a panel, hover your mouse over the the edge that touches the cells in the middle. When it changes into a double arrow, click and drag left and right to resize.
+
+
 
 

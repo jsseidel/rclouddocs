@@ -4,6 +4,7 @@ In the course of working with your notebook, variables are defined and assigned.
 
 ![Workspace Section in the Right Windowshade Panel](img/workspace.png)
 
-In the case of dataframe variables, a link is displayed, which, when clicked, will open up the [Dataframe panel](#dataframe).
+In the case of dataframe variables, a link is displayed, which will open up the [Dataframe panel](#dataframe).
+
 
 

@@ -1,22 +1,22 @@
-# Notebook Assets
+# Notebook assets
 
-Notebooks can contain "assets," which are files that can be used within your notebooks or simply for keeping track of unused code (as in the the case of scratch.R, which is a text file where you can keep bits of code while working on your notebook).
+Notebooks can contain "assets," which are files that can be used within your notebooks or simply for keeping track of unused code (as in the the case of `scratch.R`, which is a text file where you can keep bits of code while working on your notebook).
 
 ![Right Windowshade Panel; Asset Area](img/assetarea.png)
 
 
 
-<a name="dataasanasset"></a>
-
-## Data as an Asset
+## Data as an asset
 
 For example, from the previous example, lets create an asset called distrib.csv that contains the following data:
 
-        a,1
-        b,15
-        c,4
+```
+a,1
+b,15
+c,4
+```
 
-We can store this data in a new asset called "distrib.csv," simply by clicking New Asset and typing distrib.csv as a name.
+We can store this data in a new asset called `distrib.csv` simply by clicking New Asset and typing `distrib.csv` as a name.
 
 Now, this data is accessible in your R code:
 
@@ -24,17 +24,13 @@ Now, this data is accessible in your R code:
 
 
 
-<a name="uploadingasset"></a>
-
-## Uploading Assets
+## Uploading assets
 
 In addition to manually entering asset text, you can also drag and drop files into the Assets panel to upload them:
 
 ![Drag and Drop to Upload Data](img/drag_drop.png)
 
 
-
-<a name="assetlinks"></a>
 
 ## Assets Links
 
@@ -44,52 +40,48 @@ RCloud automatically generates asset links and displays them in the lower left-h
 
 
 
-<a name="binaryassets"></a>
-
 ## Binary Assets
 
-Assets can be binary (e.g. an image). RCloud auto-detects the content format and transparently encodes and decodes using base-64 encoding.  When possible, the content is displayed in its native format in the asset panel.
+Assets can be binary (e.g. an image). RCloud auto-detects this and transparently encodes and decodes using base-64 encoding. When possible, the content is displayed in its native format in the asset panel.
 
 
 
-<a name="assetsize"></a>
-
-## Asset Size
+## Asset size
 
 Assets are limited to 2.5MB each.
 
 
 
-<a name="usingcss"></a>
+## Cascading style sheets
 
-## Cascading Style Sheets (CSS)
+Assets can contain CSS formatting information. This changes the way information is presented when your notebook is executed. For example, here is a bit of CSS that defines a paragraph style:
 
-Assets can contain Cascading Style Sheet (CSS) formatting information.  This changes the way information is presented when your notebook is executed. For example, here is a bit of CSS that defines a paragraph style:
-
-    p.mystyle {
-        font-size: 20px;
-        color: red;
-    }
+```
+p.mystyle {
+	font-size: 20px;
+  color: red;
+}
+```
 
 To use this CSS as an asset, it needs to have a special name that begins with "rcloud-" and ends with ".css". In the example below, the name is "rcloud-mystyle.css".
 
 RCloud automatically uses CSS asset files with this file pattern and ignores others, so you can save bits of CSS in other files without worrying about overlap.
 
-To use the p.mystyle paragraph style, simply reference it in Markdown using HTML:
+To use the `mystyle` paragraph style, simply reference it in Markdown using HTML:
 
-    # My Header
+```
+# My Header
 
-    Here is a bit of red text:
+Here is a bit of red text:
 
-    <p class="mystyle">This is red.</p>
+<p class="mystyle">This is red.</p>
+```
 
 ![Using or Adding CSS as an Asset](img/usingcss.png)
 
 Note that you must reload your notebook to apply the CSS.
 
 
-
-<a name="jsmode"></a>
 
 ## JavaScript
 
@@ -99,8 +91,6 @@ Assets can also contain JavaScript. When editing JavaScript (files must have the
 
 
 
-<a name="htmlmode"></a>
-
 ## HTML Mode
 
 When editing HTML (files must have the .html or .htm extension), RCloud automatically uses an HTML editing mode, which has built-in syntax checking and tag completion.
@@ -109,12 +99,12 @@ When editing HTML (files must have the .html or .htm extension), RCloud automati
 
 
 
-<a name="assetrename"></a>
-
-## Renaming Assets
+## Renaming assets
 
 To rename an asset, simply click on the file name on the asset's tab.
 
 ![Renaming an RCloud Asset](img/assetrename.png)
+
+
 
 
