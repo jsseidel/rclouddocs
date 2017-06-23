@@ -6,9 +6,7 @@ Anyone can leave comments about anyone's notebooks in the Comments panel in the 
 
 Comments are included in search results.
 
-To submit a comment, simply input your text in the text area and click the comment icon ![Comment Icon](img/comment_icon.png). You can also submit your comment by pressing `Ctrl-Enter` (Win/Linux) or `Cmd-Enter` (Mac).
-
-
+To submit a comment, simply input your text in the text area and click the comment icon <img style="margin: 0;float: none;display: inline;" src="img/comment_icon.png" />. You can also submit your comment by pressing `Ctrl-Enter` (Win/Linux) or `Cmd-Enter` (Mac).
 
 ## Editing comments
 

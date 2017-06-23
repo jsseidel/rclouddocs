@@ -4,11 +4,9 @@ Notebooks can contain "assets," which are files that can be used within your not
 
 ![Right Windowshade Panel; Asset Area](img/assetarea.png)
 
-
-
 ## Data as an asset
 
-For example, from the previous example, lets create an asset called distrib.csv that contains the following data:
+For example, here is the content of a file called distrib.csv:
 
 ```
 a,1
@@ -22,15 +20,11 @@ Now, this data is accessible in your R code:
 
 ![Data (CSV file) as an RCloud Asset](img/asset.png)
 
-
-
 ## Uploading assets
 
 In addition to manually entering asset text, you can also drag and drop files into the Assets panel to upload them:
 
 ![Drag and Drop to Upload Data](img/drag_drop.png)
-
-
 
 ## Assets Links
 
@@ -38,19 +32,13 @@ RCloud automatically generates asset links and displays them in the lower left-h
 
 ![Automatically Generated Link (URL) to RCloud Asset](img/assetlink.png)
 
-
-
 ## Binary Assets
 
-Assets can be binary (e.g. an image). RCloud auto-detects this and transparently encodes and decodes using base-64 encoding. When possible, the content is displayed in its native format in the asset panel.
-
-
+Assets can be binary (e.g. an image). RCloud transparently encodes and decodes using base-64 encoding. When possible, the content is displayed in its native format in the asset panel.
 
 ## Asset size
 
 Assets are limited to 2.5MB each.
-
-
 
 ## Cascading style sheets
 
@@ -58,7 +46,7 @@ Assets can contain CSS formatting information. This changes the way information 
 
 ```
 p.mystyle {
-	font-size: 20px;
+  font-size: 20px;
   color: red;
 }
 ```

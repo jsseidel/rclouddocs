@@ -16,9 +16,7 @@ The RCloud GUI consists of:
 
 ### Opening and closing panels
 
-Clicking on the title of a panel opens and closes (and resizes in some cases) RCloud panels, such as Notebooks and Search.
-
-
+Clicking on the title of a panel, such as Notebooks and Search, opens, closes, and in some cases, resizes it.
 
 ### Opening and closing all panels
 

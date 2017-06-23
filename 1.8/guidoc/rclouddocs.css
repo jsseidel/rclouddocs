@@ -2,72 +2,59 @@
  * Adapted from: https://gist.github.com/killercup/5917178
  */
 
-html,body {
-  font-size: 16px;
-  overflow-y: scroll;
-  -webkit-text-size-adjust: 90%;
-  -ms-text-size-adjust: 90%;
-  font-family: sans-serif;
+html, body {
   padding: 0;
   margin: 0;
-  background: #fefefe;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size: 16px;
+	line-height: 1.5;
+	color: #24292e;
+	background-color: #fff
 }
 
 div#wrapper {
-	width: 1024px;
-	margin: 0 auto;
+  width: 1024px;
+  margin: 0 auto;
 }
 
 div#header {
-	padding: 5px 10px;
+  padding: 5px 10px;
 }
 
-.navbacktomain {
+.backtomain {
 	margin: 5px 5px;
 	text-size=80%;
 	text-align=center;
 }
 
 div#navbar {
-	float: left;
-	width: 280px;
-	padding: 10px;
-	height: 640px;
-	overflow-y: auto;
+  float: left;
+  width: 280px;
+  padding: 10px;
+  height: 640px;
+  overflow-y: auto;
 }
 
 div#content {
-	float: right;
-	width: 704px;
-	padding: 10px;
-	height: 640px;
-	overflow-y: auto;
+  float: right;
+  width: 704px;
+  padding: 10px;
+  height: 640px;
+  overflow-y: auto;
 }
 
 div#footer {
-	clear: both;
-	padding: 5px 10px;
+  clear: both;
+  padding: 5px 10px;
 }
 
 a {
-  color: #0645ad;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #0b0080;
+	color: #0366d6;
+	text-decoration: none
 }
 
 a:hover {
-  color: #06e;
-}
-
-a:active {
-  color: #faa700;
-}
-
-a:focus {
-  outline: thin dotted;
+  text-decoration: underline;
 }
 
 #toggleLink {
@@ -100,8 +87,8 @@ p {
 
 img {
   max-width: 100%;
-	/*display: block;*/
-	/*margin: 0 auto;*/
+	display: block;
+	margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -155,15 +142,12 @@ hr {
   padding: 0;
 }
 
-
 pre {
-  font-family: monospace, monospace;
-  _font-family: 'courier new', monospace;
-  font-size: 95%;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 100%;
   color: black;
-  background-color: #ebf1f5;
-	border: 1px solid #bcd;  
-  border-radius: 2px;
+  background-color: #f4f4f5;
+  border-radius: 5px;
   padding: .5em .5em; 
   white-space: pre;
   white-space: pre-wrap;
@@ -171,11 +155,13 @@ pre {
 }
 
 code {
-  background-color: #ebf1f5;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  background-color: #f4f4f5;
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
+
 
 b, strong {
   font-weight: bold;
@@ -259,10 +245,8 @@ img {
 
 figure, .caption {
   display: block;
-  text-align: left;
+  text-align: center;
   margin: 1em 0;
-	font-style: italic;
-	font-size: 80%;
 }
 
 figure img {
@@ -282,24 +266,22 @@ table {
   border-right: 1px solid #ddd;
   border-spacing: 0;
   border-collapse: collapse;
-  background-color: #f9f9f9;
-	border: 1px solid #aaaaaa;
 }
 
 table th {
 	font-size: 90%;
-	font-weight: bold;
+	font-weight: normal;
   padding: .2em 1em;
-  background-color: #f2f2f2;
-  border-top: 1px solid #aaaaaa;
-  border-left: 1px solid #aaaaaa;
+  background-color: #eee;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
 }
 
 table td {
 	font-size: 80%;
   padding: .2em 1em;
-  border-top: 1px solid #aaaaaa;
-  border-left: 1px solid #aaaaaa;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
   vertical-align: top;
 }
 
@@ -314,9 +296,8 @@ table td {
 }
 	
 #TOC {
-		font-size: 85%;
-		background-color: #f9faff;
-    border: 1px solid #d7dfe3;
+		font-size: 100%;
+		background-color: #fff;
 }
 
 #TOC ul li {
@@ -349,6 +330,24 @@ table td {
 	margin-bottom: 0;
 }
 
+.tip {
+  font-family: sans-serif;
+  font-size: 100%;
+  background-color: #fff;
+	border: 1px solid #dddddd;  
+  border-radius: 5px;
+  padding: 1em 1em; 
+}
+
+.note {
+  font-family: sans-serif;
+  font-size: 100%;
+  background-color: #fff;
+	border: 1px solid #dddddd;  
+  border-radius: 5px;
+  padding: 1em 1em; 
+}
+
 ul ul ul ul, ol ol ol ol {
   margin-left: 3em;
 	margin-bottom: 0;
@@ -356,22 +355,6 @@ ul ul ul ul, ol ol ol ol {
 
 ul ul ul ul ul, ol ol ol ol ol {
   margin: .3em 0;
-}
-
-.tip {
-  font-family: sans-serif;
-  font-size: 100%;
-  background-color: #ddffdd;
-	border: 1px solid #bbddbb;  
-  padding: .5em .5em; 
-}
-
-.note {
-  font-family: sans-serif;
-  font-size: 100%;
-  background-color: #ddddff;
-	border: 1px solid #bbbbdd;  
-  padding: .5em .5em; 
 }
 
 @media only screen and (min-width: 480px) {

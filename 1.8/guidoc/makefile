@@ -6,7 +6,7 @@
 TITLE=RCloud v1.8 GUI Documentation
 OUTPUT_FILE_NAME=doc
 # pdf, pdffloat, html, htmlsimple, cssframes, htmlmulti, markdown, docx
-FORMAT=cssframes
+FORMAT=markdown
 # Style only applies to HTML format. Custom requires updating the CUSTOM_CSS
 # variable below with a path to your custom CSS.
 # archwiki, github, custom
@@ -30,7 +30,7 @@ PAGE_RENDERER=page.renderer
 #PYT_RENDERER=myrenderer.py
 
 EXTERNAL_DEPS_GENERATOR=
-CUSTOM_CSS=rcloud_doc.css
+CUSTOM_CSS=rclouddocs.css
 CUSTOM_TEMPLATE=
 
 # END ADVANCED CONFIGURATION

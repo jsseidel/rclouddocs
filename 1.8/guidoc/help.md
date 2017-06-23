@@ -10,7 +10,7 @@ If help is available, RCloud will open the Help panel:
 
 <a href="img/help.png"><img class="trunc" src="img/help.png" /></a>
 
-Alternatively, you can enter a function name in the text box at the top of the panel and click the help icon ![Help Button](img/help_button.png).
+Alternatively, you can enter a function name in the text box at the top of the panel and click the help icon <img style="margin: 0;float: none;display: inline;" src="img/help_button.png" />.
 
 
 

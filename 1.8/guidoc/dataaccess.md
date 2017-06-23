@@ -4,7 +4,7 @@ There are many ways to access data in RCloud. We'll cover the options available 
 
 ## File upload
 
-Open the File Upload panel on the right sidebar by clicking on the heading. Then, select "Choose File" and browse to a local file, in this case "distrib.csv."
+Open the File Upload panel on the right sidebar by clicking on the heading. Then, select "Choose Files" and browse to a local file.
 
 ![File Upload: Example 1](img/fileupload1.png)
 
