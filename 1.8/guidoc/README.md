@@ -2,7 +2,7 @@
 
 These files are the deconstructed official version of the [RCloud](http://rcloud.social) GUI documentation. They are "compiled" by a soon-to-be open source documentation framework of my own design.
 
-To view these files in the correct order, take a look in the master document, `doc.md`, or below:
+To view these files in the correct order, take a look in the master document, `master.md`, or below:
 
 1. frontmatter.md
 2. gettingstarted.md
